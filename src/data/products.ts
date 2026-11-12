@@ -1,5 +1,11 @@
 import { CakeProduct } from '../types';
 
+export const heroPepitasCake = new URL('../assets/images/hero_pepitas_cake_1794497425841.jpg', import.meta.url).href;
+export const cakeCarrotGanache = new URL('../assets/images/cake_carrot_ganache_1794497427733.jpg', import.meta.url).href;
+export const cakeCornmealGuava = new URL('../assets/images/cake_cornmeal_guava_1794497428034.jpg', import.meta.url).href;
+export const bakeryCraftDetail = new URL('../assets/images/bakery_craft_detail_1794497427989.jpg', import.meta.url).href;
+export const cakeChocolateGanache = new URL('../assets/images/cake_chocolate_ganache_1794497425939.jpg', import.meta.url).href;
+
 export const OFFICIAL_PHONE = '5514996477792';
 export const DISPLAY_PHONE = '+55 14 99647-7792';
 export const DISPLAY_INSTAGRAM = '@pepitasconfeitaria';
@@ -19,7 +25,7 @@ export const CAKE_PRODUCTS: CakeProduct[] = [
     description: 'Massa aveludada com cacau puro selecionado, aroma marcante e textura úmida inconfundível.',
     priceTradicional: 25.0,
     priceFamilia: 35.0,
-    image: '/src/assets/images/cake_chocolate_ganache_1794497425939.jpg',
+    image: cakeChocolateGanache,
     servingSuggestion: 'Perfeito para acompanhar café coado ou chá da tarde.',
   },
   {
@@ -30,7 +36,7 @@ export const CAKE_PRODUCTS: CakeProduct[] = [
     description: 'Receita tradicional caipira com milho moído fino e erva-doce aromática, macio e aconchegante.',
     priceTradicional: 25.0,
     priceFamilia: 35.0,
-    image: '/src/assets/images/cake_cornmeal_guava_1794497428034.jpg',
+    image: cakeCornmealGuava,
     servingSuggestion: 'Combina perfeitamente com manteiga quentinha e café fresco.',
   },
   {
@@ -41,7 +47,7 @@ export const CAKE_PRODUCTS: CakeProduct[] = [
     description: 'Massa leve e fofinha enriquecida com flocos de coco natural e leite de coco fresco.',
     priceTradicional: 25.0,
     priceFamilia: 35.0,
-    image: '/src/assets/images/hero_pepitas_cake_1794497425841.jpg',
+    image: heroPepitasCake,
     servingSuggestion: 'Suave, delicado e de sabor fresco.',
   },
   {
@@ -52,7 +58,7 @@ export const CAKE_PRODUCTS: CakeProduct[] = [
     description: 'Nostalgia pura da infância: massa fofa de baunilha pontilhada com confeitos de chocolate nobre.',
     priceTradicional: 25.0,
     priceFamilia: 35.0,
-    image: '/src/assets/images/hero_pepitas_cake_1794497425841.jpg',
+    image: heroPepitasCake,
     servingSuggestion: 'O clássico preferido de todas as gerações da família.',
   },
   {
@@ -63,7 +69,7 @@ export const CAKE_PRODUCTS: CakeProduct[] = [
     description: 'Equilíbrio primoroso entre a acidez cítrica do limão fresco e a doçura suave da massa artesanal.',
     priceTradicional: 25.0,
     priceFamilia: 35.0,
-    image: '/src/assets/images/hero_pepitas_cake_1794497425841.jpg',
+    image: heroPepitasCake,
     servingSuggestion: 'Refrescante, leve e com raspas aromáticas.',
   },
   {
@@ -74,7 +80,7 @@ export const CAKE_PRODUCTS: CakeProduct[] = [
     description: 'Elaborado com suco puro de laranjas colhidas no ponto exato, aroma cítrico dourado e massa fofa.',
     priceTradicional: 25.0,
     priceFamilia: 35.0,
-    image: '/src/assets/images/hero_pepitas_cake_1794497425841.jpg',
+    image: heroPepitasCake,
     servingSuggestion: 'Ideal para um café da manhã revitalizante.',
   },
   {
@@ -85,7 +91,7 @@ export const CAKE_PRODUCTS: CakeProduct[] = [
     description: 'Fatias generosas de bananas maduras envoltas em calda de açúcar mascavo e um toque sutil de canela.',
     priceTradicional: 25.0,
     priceFamilia: 35.0,
-    image: '/src/assets/images/hero_pepitas_cake_1794497425841.jpg',
+    image: heroPepitasCake,
     servingSuggestion: 'Sabor rústico e acolhedor de receita de vó.',
   },
   {
@@ -96,7 +102,7 @@ export const CAKE_PRODUCTS: CakeProduct[] = [
     description: 'Sofisticação aromática do limão siciliano harmonizado com mirtilos frescos explodindo na massa.',
     priceTradicional: 25.0,
     priceFamilia: 35.0,
-    image: '/src/assets/images/hero_pepitas_cake_1794497425841.jpg',
+    image: heroPepitasCake,
     servingSuggestion: 'Toque gourmet e floral para encontros especiais.',
   },
 
@@ -109,7 +115,7 @@ export const CAKE_PRODUCTS: CakeProduct[] = [
     description: 'Massa dourada e aerada de cenoura fresca coberta generosamente com ganache aveludada de chocolate.',
     priceTradicional: 35.0,
     priceFamilia: 45.0,
-    image: '/src/assets/images/cake_carrot_ganache_1794497427733.jpg',
+    image: cakeCarrotGanache,
     highlightBadge: 'Favorito da Casa',
     servingSuggestion: 'O contraste perfeito entre a massa fofa e o brilho cremoso do chocolate.',
   },
@@ -121,7 +127,7 @@ export const CAKE_PRODUCTS: CakeProduct[] = [
     description: 'Para verdadeiros amantes de cacau: bolo de chocolate nobre com calda cremosa e raspas crocantes.',
     priceTradicional: 35.0,
     priceFamilia: 45.0,
-    image: '/src/assets/images/cake_chocolate_ganache_1794497425939.jpg',
+    image: cakeChocolateGanache,
     highlightBadge: 'Receita Assinatura',
     servingSuggestion: 'Acompanhe com calda quente ou uma bola de sorvete de baunilha.',
   },
@@ -133,7 +139,7 @@ export const CAKE_PRODUCTS: CakeProduct[] = [
     description: 'Fubá mineiro aromático coberto com cascata de goiabada cascão derretida artesanalmente.',
     priceTradicional: 35.0,
     priceFamilia: 45.0,
-    image: '/src/assets/images/cake_cornmeal_guava_1794497428034.jpg',
+    image: cakeCornmealGuava,
     highlightBadge: 'Tradição Artesanal',
     servingSuggestion: 'O casamento mais afetuoso e consagrado da doçaria brasileira.',
   },
@@ -145,7 +151,7 @@ export const CAKE_PRODUCTS: CakeProduct[] = [
     description: 'Massa aveludada com dupla cobertura cremosa: brigadeiro de panela e creme aveludado de Ninho.',
     priceTradicional: 35.0,
     priceFamilia: 45.0,
-    image: '/src/assets/images/cake_chocolate_ganache_1794497425939.jpg',
+    image: cakeChocolateGanache,
     servingSuggestion: 'Irresistível para aniversários e momentos festivos.',
   },
   {
@@ -156,7 +162,7 @@ export const CAKE_PRODUCTS: CakeProduct[] = [
     description: 'Bolo ultra molhadinho em leite condensado e leite de coco, coberto com manto espesso de coco ralado fino.',
     priceTradicional: 35.0,
     priceFamilia: 45.0,
-    image: '/src/assets/images/hero_pepitas_cake_1794497425841.jpg',
+    image: heroPepitasCake,
     servingSuggestion: 'Servido fresco e incrivelmente úmido a cada garfada.',
   },
   {
@@ -167,7 +173,7 @@ export const CAKE_PRODUCTS: CakeProduct[] = [
     description: 'Massa delicada finalizada com ganache suave de chocolate branco nobre e lâminas artesanais.',
     priceTradicional: 35.0,
     priceFamilia: 45.0,
-    image: '/src/assets/images/bakery_craft_detail_1794497427989.jpg',
+    image: bakeryCraftDetail,
     servingSuggestion: 'Textura sedosa, dulçor calibrado e visual requintado.',
   },
   {
@@ -178,7 +184,7 @@ export const CAKE_PRODUCTS: CakeProduct[] = [
     description: 'Massa cítrica com cobertura acetinada de leite condensado com limão e raspas frescas da fruta.',
     priceTradicional: 35.0,
     priceFamilia: 45.0,
-    image: '/src/assets/images/hero_pepitas_cake_1794497425841.jpg',
+    image: heroPepitasCake,
     servingSuggestion: 'Acidez refrescante e cobertura aveludada que abraça o paladar.',
   },
   {
@@ -189,7 +195,7 @@ export const CAKE_PRODUCTS: CakeProduct[] = [
     description: 'Doce de leite cozido lentamente no tacho, salpicado com castanhas tostadas crocantes e toque de canela.',
     priceTradicional: 35.0,
     priceFamilia: 45.0,
-    image: '/src/assets/images/cake_chocolate_ganache_1794497425939.jpg',
+    image: cakeChocolateGanache,
     servingSuggestion: 'Crocância e cremosidade em perfeita harmonia.',
   },
 ];

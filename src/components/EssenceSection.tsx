@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heart, Clock, Sparkles } from 'lucide-react';
+import { bakeryCraftDetail } from '../data/products';
 
 export const EssenceSection: React.FC = () => {
   return (
@@ -33,7 +34,7 @@ export const EssenceSection: React.FC = () => {
               />
               <div className="relative rounded-lg overflow-hidden shadow-lg border border-[#C9AD91]/50 aspect-[4/3] bg-[#FFF8F0]">
                 <img
-                  src="/src/assets/images/bakery_craft_detail_1794497427989.jpg"
+                  src={bakeryCraftDetail}
                   alt="Preparo artesanal e minucioso na bancada da Pepitas Confeitaria"
                   className="w-full h-full object-cover object-center transform transition-transform duration-700 hover:scale-105"
                   referrerPolicy="no-referrer"

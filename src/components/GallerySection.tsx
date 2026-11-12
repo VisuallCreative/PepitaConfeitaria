@@ -1,6 +1,14 @@
 import React from 'react';
 import { Eye, Camera } from 'lucide-react';
-import { INSTAGRAM_URL, DISPLAY_INSTAGRAM } from '../data/products';
+import {
+  INSTAGRAM_URL,
+  DISPLAY_INSTAGRAM,
+  cakeCarrotGanache,
+  bakeryCraftDetail,
+  cakeCornmealGuava,
+  cakeChocolateGanache,
+  heroPepitasCake,
+} from '../data/products';
 
 interface GalleryItem {
   id: string;
@@ -20,42 +28,42 @@ export const GallerySection: React.FC<GallerySectionProps> = ({ onViewImage }) =
       id: 'gal-1',
       title: 'Bolo de Cenoura com Ganache Cremosa',
       category: 'Coberturas & Texturas',
-      image: '/src/assets/images/cake_carrot_ganache_1794497427733.jpg',
+      image: cakeCarrotGanache,
       description: 'O contraste da massa dourada fofa com a generosa calda de chocolate aveludada.',
     },
     {
       id: 'gal-2',
       title: 'Finalização & Cuidado Minucioso',
       category: 'Detalhes da Preparação',
-      image: '/src/assets/images/bakery_craft_detail_1794497427989.jpg',
+      image: bakeryCraftDetail,
       description: 'Polvilhamento delicado de açúcar fino e seleção de frutas frescas.',
     },
     {
       id: 'gal-3',
       title: 'Fubá Mineiro com Goiabada Quente',
       category: 'Tradição Artesanal',
-      image: '/src/assets/images/cake_cornmeal_guava_1794497428034.jpg',
+      image: cakeCornmealGuava,
       description: 'A cascata de goiabada cascão derretida abraçando a receita clássica caipira.',
     },
     {
       id: 'gal-4',
       title: 'Chocolate Intenso da Casa',
       category: 'Texturas & Caldas',
-      image: '/src/assets/images/cake_chocolate_ganache_1794497425939.jpg',
+      image: cakeChocolateGanache,
       description: 'Cacau selecionado e raspas crocantes de chocolate nobre em camadas ricas.',
     },
     {
       id: 'gal-5',
       title: 'Bolo Artesanal Assinado Pepitas',
       category: 'Composição de Mesa',
-      image: '/src/assets/images/hero_pepitas_cake_1794497425841.jpg',
+      image: heroPepitasCake,
       description: 'Apresentação refinada em cerâmica para celebrações e cafés com a família.',
     },
     {
       id: 'gal-6',
       title: 'Massa Aerada & Aroma Caseiro',
       category: 'Frescor & Maciez',
-      image: '/src/assets/images/cake_carrot_ganache_1794497427733.jpg',
+      image: cakeCarrotGanache,
       description: 'Textura macia que desmancha a cada mordida, assado no ponto exato.',
     },
   ];

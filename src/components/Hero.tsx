@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowDown, MessageCircle } from 'lucide-react';
-import { WHATSAPP_BASE_URL } from '../data/products';
+import { WHATSAPP_BASE_URL, heroPepitasCake } from '../data/products';
 
 export const Hero: React.FC = () => {
   return (
@@ -82,7 +82,7 @@ export const Hero: React.FC = () => {
               {/* Main photograph */}
               <div className="relative rounded-lg overflow-hidden shadow-xl border border-[#C9AD91]/40 aspect-[4/3] lg:aspect-[16/11] bg-[#F4DFD2]">
                 <img
-                  src="/src/assets/images/hero_pepitas_cake_1794497425841.jpg"
+                  src={heroPepitasCake}
                   alt="Bolo artesanal da Pepitas Confeitaria em pedestal cerâmico com iluminação natural suave"
                   className="w-full h-full object-cover object-center transform transition-transform duration-700 hover:scale-105"
                   referrerPolicy="no-referrer"
