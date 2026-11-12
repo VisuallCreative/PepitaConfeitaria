@@ -1,0 +1,8 @@
+{
+  "name": "Pepitas Confeitaria Artesanal",
+  "description": "Confeitaria artesanal em Ourinhos - SP. Bolos caseiros tradicionais e com cobertura, feitos à mão com tempo, cuidado e intenção.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
